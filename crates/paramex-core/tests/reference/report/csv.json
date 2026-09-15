@@ -1,0 +1,177 @@
+{
+  "cases": [
+    {
+      "label": "sample",
+      "results": [
+        {
+          "filename": "dev_a.csv",
+          "width_um": 1500.0,
+          "length_um": 50.0,
+          "aspect_ratio": 30.0,
+          "geometry_source": "default",
+          "vt": 0.83,
+          "mu_sat": 12.5,
+          "ss_mv_dec": 95.0,
+          "ion": 0.00012,
+          "ioff": 3.4e-12,
+          "on_off_ratio": 35000000.0,
+          "delta_vth_hysteresis": "nan",
+          "vt_window": [
+            1.0,
+            4.0
+          ],
+          "ss_window": [
+            -1.0,
+            0.5
+          ],
+          "vt_window_bwd": null,
+          "ss_window_bwd": null,
+          "status": "ok",
+          "message": "",
+          "has_backward_sweep": false,
+          "vt_forward": 0.83,
+          "mu_sat_forward": 12.5,
+          "ss_mv_dec_forward": 95.0,
+          "ion_forward": 0.00012,
+          "ioff_forward": 3.4e-12,
+          "on_off_ratio_forward": 35000000.0,
+          "vt_backward": "nan",
+          "mu_sat_backward": "nan",
+          "ss_mv_dec_backward": "nan",
+          "ion_backward": "nan",
+          "ioff_backward": "nan",
+          "on_off_ratio_backward": "nan"
+        },
+        {
+          "filename": "dev_b.csv",
+          "width_um": 200.0,
+          "length_um": 10.0,
+          "aspect_ratio": 20.0,
+          "geometry_source": "imported",
+          "vt": 1.05,
+          "mu_sat": 8.1,
+          "ss_mv_dec": 120.0,
+          "ion": 9.9e-05,
+          "ioff": "nan",
+          "on_off_ratio": "nan",
+          "delta_vth_hysteresis": 0.12,
+          "vt_window": [
+            0.5,
+            3.5
+          ],
+          "ss_window": [
+            -0.5,
+            1.0
+          ],
+          "vt_window_bwd": [
+            0.6,
+            3.6
+          ],
+          "ss_window_bwd": [
+            -0.4,
+            1.1
+          ],
+          "status": "ok",
+          "message": "",
+          "has_backward_sweep": true,
+          "vt_forward": 1.05,
+          "mu_sat_forward": 8.1,
+          "ss_mv_dec_forward": 120.0,
+          "ion_forward": 9.9e-05,
+          "ioff_forward": 2e-12,
+          "on_off_ratio_forward": 49500000.0,
+          "vt_backward": 1.17,
+          "mu_sat_backward": 7.6,
+          "ss_mv_dec_backward": 130.0,
+          "ion_backward": 9.5e-05,
+          "ioff_backward": 2.5e-12,
+          "on_off_ratio_backward": 38000000.0
+        },
+        {
+          "filename": "dev_c.csv",
+          "width_um": 1500.0,
+          "length_um": 50.0,
+          "aspect_ratio": 30.0,
+          "geometry_source": "global",
+          "vt": "nan",
+          "mu_sat": "nan",
+          "ss_mv_dec": "nan",
+          "ion": "nan",
+          "ioff": "nan",
+          "on_off_ratio": "nan",
+          "delta_vth_hysteresis": "nan",
+          "vt_window": null,
+          "ss_window": null,
+          "vt_window_bwd": null,
+          "ss_window_bwd": null,
+          "status": "partial",
+          "message": "Some metrics could not be extracted.",
+          "has_backward_sweep": false,
+          "vt_forward": "nan",
+          "mu_sat_forward": "nan",
+          "ss_mv_dec_forward": "nan",
+          "ion_forward": "nan",
+          "ioff_forward": "nan",
+          "on_off_ratio_forward": "nan",
+          "vt_backward": "nan",
+          "mu_sat_backward": "nan",
+          "ss_mv_dec_backward": "nan",
+          "ion_backward": "nan",
+          "ioff_backward": "nan",
+          "on_off_ratio_backward": "nan"
+        }
+      ],
+      "csv_b64": "77u/Rm9yd2FyZCBSZXN1bHRzDQpGaWxlLFcgKMK1bSksTCAowrVtKSxXL0wsR2VvbWV0cnksVlRIIChWKSxtdV9zYXQgKGNtXjIgVl4tMSBzXi0xKSxTUyAobVYgZGVjXi0xKSxJb24sSW9mZixJb24vSW9mZiwiRGVsdGFWVEgsaHlzdCAoVikiLFN0YXR1cyxNZXNzYWdlDQpkZXZfYS5jc3YsMTUwMC4wMCw1MC4wMCwzMC4wMCxkZWZhdWx0LDAuODMsMTIuNTAsOTUuMDAsMTIwLjAwIMK1QSwzLjQwIHBBLDMuNTAgw5cgMTBeNyxOQSxvaywNCmRldl9iLmNzdiwyMDAuMDAsMTAuMDAsMjAuMDAsaW1wb3J0ZWQsMS4wNSw4LjEwLDEyMC4wMCw5OS4wMCDCtUEsMi4wMCBwQSw0Ljk1IMOXIDEwXjcsMC4xMixvaywNCmRldl9jLmNzdiwxNTAwLjAwLDUwLjAwLDMwLjAwLGdsb2JhbCxOQSxOQSxOQSxOQSxOQSxOQSxOQSxwYXJ0aWFsLFNvbWUgbWV0cmljcyBjb3VsZCBub3QgYmUgZXh0cmFjdGVkLg0KT3ZlcmFsbCxOQSxOQSxOQSwsMC45NCDCsSAwLjE2LDEwLjMwIMKxIDMuMTEsMTA3LjUwIMKxIDE3LjY4LDEwOS41MCDCtUEgwrEgMTQuODUgwrVBLDIuNzAgcEEgwrEgOTg5Ljk1IGZBLGxvZzEwIDcuNjIgwrEgMC4xMSwwLjEyIMKxIE5BLCxtZWFuIMKxIHN0ZA0KDQpCYWNrd2FyZCBSZXN1bHRzDQpGaWxlLFcgKMK1bSksTCAowrVtKSxXL0wsR2VvbWV0cnksVlRIIChWKSxtdV9zYXQgKGNtXjIgVl4tMSBzXi0xKSxTUyAobVYgZGVjXi0xKSxJb24sSW9mZixJb24vSW9mZiwiRGVsdGFWVEgsaHlzdCAoVikiLFN0YXR1cyxNZXNzYWdlDQpkZXZfYi5jc3YsMjAwLjAwLDEwLjAwLDIwLjAwLGltcG9ydGVkLDEuMTcsNy42MCwxMzAuMDAsOTUuMDAgwrVBLDIuNTAgcEEsMy44MCDDlyAxMF43LDAuMTIsb2ssDQpPdmVyYWxsLE5BLE5BLE5BLCwxLjE3IMKxIE5BLDcuNjAgwrEgTkEsMTMwLjAwIMKxIE5BLDk1LjAwIMK1QSDCsSBOQSwyLjUwIHBBIMKxIE5BLGxvZzEwIDcuNTggwrEgTkEsMC4xMiDCsSBOQSwsbWVhbiDCsSBzdGQNCg=="
+    },
+    {
+      "label": "single_only",
+      "results": [
+        {
+          "filename": "dev_a.csv",
+          "width_um": 1500.0,
+          "length_um": 50.0,
+          "aspect_ratio": 30.0,
+          "geometry_source": "default",
+          "vt": 0.83,
+          "mu_sat": 12.5,
+          "ss_mv_dec": 95.0,
+          "ion": 0.00012,
+          "ioff": 3.4e-12,
+          "on_off_ratio": 35000000.0,
+          "delta_vth_hysteresis": "nan",
+          "vt_window": [
+            1.0,
+            4.0
+          ],
+          "ss_window": [
+            -1.0,
+            0.5
+          ],
+          "vt_window_bwd": null,
+          "ss_window_bwd": null,
+          "status": "ok",
+          "message": "",
+          "has_backward_sweep": false,
+          "vt_forward": 0.83,
+          "mu_sat_forward": 12.5,
+          "ss_mv_dec_forward": 95.0,
+          "ion_forward": 0.00012,
+          "ioff_forward": 3.4e-12,
+          "on_off_ratio_forward": 35000000.0,
+          "vt_backward": "nan",
+          "mu_sat_backward": "nan",
+          "ss_mv_dec_backward": "nan",
+          "ion_backward": "nan",
+          "ioff_backward": "nan",
+          "on_off_ratio_backward": "nan"
+        }
+      ],
+      "csv_b64": "77u/Rm9yd2FyZCBSZXN1bHRzDQpGaWxlLFcgKMK1bSksTCAowrVtKSxXL0wsR2VvbWV0cnksVlRIIChWKSxtdV9zYXQgKGNtXjIgVl4tMSBzXi0xKSxTUyAobVYgZGVjXi0xKSxJb24sSW9mZixJb24vSW9mZiwiRGVsdGFWVEgsaHlzdCAoVikiLFN0YXR1cyxNZXNzYWdlDQpkZXZfYS5jc3YsMTUwMC4wMCw1MC4wMCwzMC4wMCxkZWZhdWx0LDAuODMsMTIuNTAsOTUuMDAsMTIwLjAwIMK1QSwzLjQwIHBBLDMuNTAgw5cgMTBeNyxOQSxvaywNCk92ZXJhbGwsTkEsTkEsTkEsLDAuODMgwrEgTkEsMTIuNTAgwrEgTkEsOTUuMDAgwrEgTkEsMTIwLjAwIMK1QSDCsSBOQSwzLjQwIHBBIMKxIE5BLGxvZzEwIDcuNTQgwrEgTkEsTkEgwrEgTkEsLG1lYW4gwrEgc3RkDQoNCkJhY2t3YXJkIFJlc3VsdHMNCkZpbGUsVyAowrVtKSxMICjCtW0pLFcvTCxHZW9tZXRyeSxWVEggKFYpLG11X3NhdCAoY21eMiBWXi0xIHNeLTEpLFNTIChtViBkZWNeLTEpLElvbixJb2ZmLElvbi9Jb2ZmLCJEZWx0YVZUSCxoeXN0IChWKSIsU3RhdHVzLE1lc3NhZ2UNCk92ZXJhbGwsTkEsTkEsTkEsLE5BIMKxIE5BLE5BIMKxIE5BLE5BIMKxIE5BLE5BIMKxIE5BLE5BIMKxIE5BLGxvZzEwIE5BIMKxIE5BLE5BIMKxIE5BLCxtZWFuIMKxIHN0ZA0K"
+    },
+    {
+      "label": "empty",
+      "results": [],
+      "csv_b64": ""
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "results": [
+    {
+      "filename": "dev_a.csv",
+      "width_um": 1500.0,
+      "length_um": 50.0,
+      "aspect_ratio": 30.0,
+      "geometry_source": "default",
+      "vt": 0.83,
+      "mu_sat": 12.5,
+      "ss_mv_dec": 95.0,
+      "ion": 0.00012,
+      "ioff": 3.4e-12,
+      "on_off_ratio": 35000000.0,
+      "delta_vth_hysteresis": "nan",
+      "vt_window": [
+        1.0,
+        4.0
+      ],
+      "ss_window": [
+        -1.0,
+        0.5
+      ],
+      "vt_window_bwd": null,
+      "ss_window_bwd": null,
+      "status": "ok",
+      "message": "",
+      "has_backward_sweep": false,
+      "vt_forward": 0.83,
+      "mu_sat_forward": 12.5,
+      "ss_mv_dec_forward": 95.0,
+      "ion_forward": 0.00012,
+      "ioff_forward": 3.4e-12,
+      "on_off_ratio_forward": 35000000.0,
+      "vt_backward": "nan",
+      "mu_sat_backward": "nan",
+      "ss_mv_dec_backward": "nan",
+      "ion_backward": "nan",
+      "ioff_backward": "nan",
+      "on_off_ratio_backward": "nan"
+    },
+    {
+      "filename": "dev_b.csv",
+      "width_um": 200.0,
+      "length_um": 10.0,
+      "aspect_ratio": 20.0,
+      "geometry_source": "imported",
+      "vt": 1.05,
+      "mu_sat": 8.1,
+      "ss_mv_dec": 120.0,
+      "ion": 9.9e-05,
+      "ioff": "nan",
+      "on_off_ratio": "nan",
+      "delta_vth_hysteresis": 0.12,
+      "vt_window": [
+        0.5,
+        3.5
+      ],
+      "ss_window": [
+        -0.5,
+        1.0
+      ],
+      "vt_window_bwd": [
+        0.6,
+        3.6
+      ],
+      "ss_window_bwd": [
+        -0.4,
+        1.1
+      ],
+      "status": "ok",
+      "message": "",
+      "has_backward_sweep": true,
+      "vt_forward": 1.05,
+      "mu_sat_forward": 8.1,
+      "ss_mv_dec_forward": 120.0,
+      "ion_forward": 9.9e-05,
+      "ioff_forward": 2e-12,
+      "on_off_ratio_forward": 49500000.0,
+      "vt_backward": 1.17,
+      "mu_sat_backward": 7.6,
+      "ss_mv_dec_backward": 130.0,
+      "ion_backward": 9.5e-05,
+      "ioff_backward": 2.5e-12,
+      "on_off_ratio_backward": 38000000.0
+    },
+    {
+      "filename": "dev_c.csv",
+      "width_um": 1500.0,
+      "length_um": 50.0,
+      "aspect_ratio": 30.0,
+      "geometry_source": "global",
+      "vt": "nan",
+      "mu_sat": "nan",
+      "ss_mv_dec": "nan",
+      "ion": "nan",
+      "ioff": "nan",
+      "on_off_ratio": "nan",
+      "delta_vth_hysteresis": "nan",
+      "vt_window": null,
+      "ss_window": null,
+      "vt_window_bwd": null,
+      "ss_window_bwd": null,
+      "status": "partial",
+      "message": "Some metrics could not be extracted.",
+      "has_backward_sweep": false,
+      "vt_forward": "nan",
+      "mu_sat_forward": "nan",
+      "ss_mv_dec_forward": "nan",
+      "ion_forward": "nan",
+      "ioff_forward": "nan",
+      "on_off_ratio_forward": "nan",
+      "vt_backward": "nan",
+      "mu_sat_backward": "nan",
+      "ss_mv_dec_backward": "nan",
+      "ion_backward": "nan",
+      "ioff_backward": "nan",
+      "on_off_ratio_backward": "nan"
+    }
+  ],
+  "stats": [
+    {
+      "scope": "All",
+      "metric": "W_um",
+      "count": 3,
+      "mean": 1066.6666666666667,
+      "std": 750.5553499465135,
+      "min": 200.0,
+      "median": 1500.0,
+      "max": 1500.0
+    },
+    {
+      "scope": "All",
+      "metric": "L_um",
+      "count": 3,
+      "mean": 36.666666666666664,
+      "std": 23.09401076758503,
+      "min": 10.0,
+      "median": 50.0,
+      "max": 50.0
+    },
+    {
+      "scope": "All",
+      "metric": "W_over_L",
+      "count": 3,
+      "mean": 26.666666666666668,
+      "std": 5.773502691896257,
+      "min": 20.0,
+      "median": 30.0,
+      "max": 30.0
+    },
+    {
+      "scope": "All",
+      "metric": "DeltaVth_hysteresis",
+      "count": 1,
+      "mean": 0.12,
+      "std": "nan",
+      "min": 0.12,
+      "median": 0.12,
+      "max": 0.12
+    },
+    {
+      "scope": "Forward",
+      "metric": "Vth",
+      "count": 2,
+      "mean": 0.94,
+      "std": 0.15556349186104051,
+      "min": 0.83,
+      "median": 0.94,
+      "max": 1.05
+    },
+    {
+      "scope": "Forward",
+      "metric": "mu_sat",
+      "count": 2,
+      "mean": 10.3,
+      "std": 3.111269837220809,
+      "min": 8.1,
+      "median": 10.3,
+      "max": 12.5
+    },
+    {
+      "scope": "Forward",
+      "metric": "SS_mV_dec",
+      "count": 2,
+      "mean": 107.5,
+      "std": 17.67766952966369,
+      "min": 95.0,
+      "median": 107.5,
+      "max": 120.0
+    },
+    {
+      "scope": "Forward",
+      "metric": "Ion",
+      "count": 2,
+      "mean": 0.0001095,
+      "std": 1.4849242404917505e-05,
+      "min": 9.9e-05,
+      "median": 0.0001095,
+      "max": 0.00012
+    },
+    {
+      "scope": "Forward",
+      "metric": "Ioff",
+      "count": 2,
+      "mean": 2.7000000000000002e-12,
+      "std": 9.899494936611667e-13,
+      "min": 2e-12,
+      "median": 2.7000000000000002e-12,
+      "max": 3.4e-12
+    },
+    {
+      "scope": "Forward",
+      "metric": "log10_Ion",
+      "count": 2,
+      "mean": -3.962591779677413,
+      "std": 0.05907597952170821,
+      "min": -4.00436480540245,
+      "median": -3.962591779677413,
+      "max": -3.9208187539523753
+    },
+    {
+      "scope": "Forward",
+      "metric": "log10_Ioff",
+      "count": 2,
+      "mean": -11.58374554364688,
+      "std": 0.16295199502370317,
+      "min": -11.698970004336019,
+      "median": -11.58374554364688,
+      "max": -11.468521082957745
+    },
+    {
+      "scope": "Forward",
+      "metric": "log10_Ion_Ioff",
+      "count": 2,
+      "mean": 7.6193366216419225,
+      "std": 0.10644584282637387,
+      "min": 7.544068044350276,
+      "median": 7.6193366216419225,
+      "max": 7.694605198933568
+    },
+    {
+      "scope": "Backward",
+      "metric": "Vth",
+      "count": 1,
+      "mean": 1.17,
+      "std": "nan",
+      "min": 1.17,
+      "median": 1.17,
+      "max": 1.17
+    },
+    {
+      "scope": "Backward",
+      "metric": "mu_sat",
+      "count": 1,
+      "mean": 7.6,
+      "std": "nan",
+      "min": 7.6,
+      "median": 7.6,
+      "max": 7.6
+    },
+    {
+      "scope": "Backward",
+      "metric": "SS_mV_dec",
+      "count": 1,
+      "mean": 130.0,
+      "std": "nan",
+      "min": 130.0,
+      "median": 130.0,
+      "max": 130.0
+    },
+    {
+      "scope": "Backward",
+      "metric": "Ion",
+      "count": 1,
+      "mean": 9.5e-05,
+      "std": "nan",
+      "min": 9.5e-05,
+      "median": 9.5e-05,
+      "max": 9.5e-05
+    },
+    {
+      "scope": "Backward",
+      "metric": "Ioff",
+      "count": 1,
+      "mean": 2.5e-12,
+      "std": "nan",
+      "min": 2.5e-12,
+      "median": 2.5e-12,
+      "max": 2.5e-12
+    },
+    {
+      "scope": "Backward",
+      "metric": "log10_Ion",
+      "count": 1,
+      "mean": -4.022276394711152,
+      "std": "nan",
+      "min": -4.022276394711152,
+      "median": -4.022276394711152,
+      "max": -4.022276394711152
+    },
+    {
+      "scope": "Backward",
+      "metric": "log10_Ioff",
+      "count": 1,
+      "mean": -11.602059991327963,
+      "std": "nan",
+      "min": -11.602059991327963,
+      "median": -11.602059991327963,
+      "max": -11.602059991327963
+    },
+    {
+      "scope": "Backward",
+      "metric": "log10_Ion_Ioff",
+      "count": 1,
+      "mean": 7.57978359661681,
+      "std": "nan",
+      "min": 7.57978359661681,
+      "median": 7.57978359661681,
+      "max": 7.57978359661681
+    }
+  ]
+}

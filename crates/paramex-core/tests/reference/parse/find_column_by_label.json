@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "values": [
+        "Ig (A)",
+        "Vg (V)",
+        "Id (A)"
+      ],
+      "vocab": "vg",
+      "expected": 1
+    },
+    {
+      "values": [
+        "time",
+        "voltage",
+        "current"
+      ],
+      "vocab": "vg",
+      "expected": null
+    },
+    {
+      "values": [
+        "Vd",
+        "abs_Id"
+      ],
+      "vocab": "vd",
+      "expected": 0
+    },
+    {
+      "values": [
+        "GateV",
+        "DrainV"
+      ],
+      "vocab": "vd",
+      "expected": 1
+    },
+    {
+      "values": [],
+      "vocab": "vg",
+      "expected": null
+    },
+    {
+      "values": [
+        "Drain Voltage",
+        "x"
+      ],
+      "vocab": "vd",
+      "expected": 0
+    }
+  ]
+}

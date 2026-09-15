@@ -1,0 +1,108 @@
+{
+  "cases": [
+    {
+      "input": "1.5",
+      "expected": 1.5
+    },
+    {
+      "input": " 1.5 ",
+      "expected": 1.5
+    },
+    {
+      "input": "1e-12",
+      "expected": 1e-12
+    },
+    {
+      "input": "-3",
+      "expected": -3.0
+    },
+    {
+      "input": "inf",
+      "expected": "inf"
+    },
+    {
+      "input": "-inf",
+      "expected": "-inf"
+    },
+    {
+      "input": "nan",
+      "expected": "nan"
+    },
+    {
+      "input": "",
+      "expected": "nan"
+    },
+    {
+      "input": "   ",
+      "expected": "nan"
+    },
+    {
+      "input": "abc",
+      "expected": "nan"
+    },
+    {
+      "input": "1,000",
+      "expected": "nan"
+    },
+    {
+      "input": "1.2.3",
+      "expected": "nan"
+    },
+    {
+      "input": "+4.0",
+      "expected": 4.0
+    },
+    {
+      "input": "1E3",
+      "expected": 1000.0
+    },
+    {
+      "input": "Infinity",
+      "expected": "inf"
+    },
+    {
+      "input": "-Infinity",
+      "expected": "-inf"
+    },
+    {
+      "input": "6.02e23",
+      "expected": 6.02e+23
+    },
+    {
+      "input": "0",
+      "expected": 0.0
+    },
+    {
+      "input": "1_000",
+      "expected": "nan"
+    },
+    {
+      "input": "1e400",
+      "expected": "inf"
+    },
+    {
+      "input": "-0.0",
+      "expected": -0.0
+    },
+    {
+      "input": ".5",
+      "expected": 0.5
+    },
+    {
+      "input": "5.",
+      "expected": 5.0
+    },
+    {
+      "input": "\t1.5\t",
+      "expected": 1.5
+    },
+    {
+      "input": "1.5\u00a0",
+      "expected": "nan"
+    },
+    {
+      "input": "\u00a0",
+      "expected": "nan"
+    }
+  ]
+}

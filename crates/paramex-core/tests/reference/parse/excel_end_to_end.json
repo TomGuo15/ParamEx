@@ -1,0 +1,132 @@
+{
+  "cases": [
+    {
+      "name": "multi_sheet.xlsx",
+      "fixture": "multi_sheet.xlsx",
+      "result": {
+        "ok": {
+          "name": "multi_sheet.xlsx",
+          "source_path": null,
+          "vg": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0,
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          "id_abs": [
+            1e-12,
+            1.778279410038923e-12,
+            3.162277660168379e-12,
+            5.62341325190349e-12,
+            1e-11,
+            1.778279410038923e-11,
+            3.162277660168379e-11,
+            5.623413251903491e-11,
+            1e-10,
+            1.778279410038923e-10,
+            3.16227766016838e-10,
+            5.623413251903491e-10
+          ]
+        }
+      }
+    },
+    {
+      "name": "late_header.xlsx",
+      "fixture": "late_header.xlsx",
+      "result": {
+        "ok": {
+          "name": "late_header.xlsx",
+          "source_path": null,
+          "vg": [
+            -6.0,
+            -5.0,
+            -4.0,
+            -3.0,
+            -2.0,
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "id_abs": [
+            1e-12,
+            1.778279410038923e-12,
+            3.162277660168379e-12,
+            5.62341325190349e-12,
+            1e-11,
+            1.778279410038923e-11,
+            3.162277660168379e-11,
+            5.623413251903491e-11,
+            1e-10,
+            1.778279410038923e-10,
+            3.16227766016838e-10,
+            5.623413251903491e-10
+          ]
+        }
+      }
+    },
+    {
+      "name": "instrument.xlsx",
+      "fixture": "instrument.xlsx",
+      "result": {
+        "ok": {
+          "name": "instrument.xlsx",
+          "source_path": null,
+          "vg": [
+            2.0,
+            1.0,
+            0.0,
+            -1.0,
+            -2.0,
+            -3.0,
+            -4.0,
+            -5.0,
+            -6.0,
+            -7.0,
+            -8.0,
+            -9.0
+          ],
+          "id_abs": [
+            1e-12,
+            1.778279410038923e-12,
+            3.162277660168379e-12,
+            5.62341325190349e-12,
+            1e-11,
+            1.778279410038923e-11,
+            3.162277660168379e-11,
+            5.623413251903491e-11,
+            1e-10,
+            1.778279410038923e-10,
+            3.16227766016838e-10,
+            5.623413251903491e-10
+          ]
+        }
+      }
+    },
+    {
+      "name": "spectrum.xlsx",
+      "fixture": "spectrum.xlsx",
+      "result": {
+        "error": "No usable transfer curve found in spectrum.xlsx. Check that the file contains Vg and Id columns with at least 12 valid positive-current rows."
+      }
+    },
+    {
+      "name": "output_curve.xlsx",
+      "fixture": "output_curve.xlsx",
+      "result": {
+        "error": "No usable transfer curve found in output_curve.xlsx. Check that the file contains Vg and Id columns with at least 12 valid positive-current rows."
+      }
+    }
+  ]
+}
