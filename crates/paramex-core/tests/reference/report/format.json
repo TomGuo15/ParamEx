@@ -1,0 +1,260 @@
+{
+  "cases": [
+    {
+      "value": 0.0,
+      "fmt": "0.00",
+      "eng": "0.00e+00 A",
+      "pot_html": "NA",
+      "pot_text": "NA",
+      "count": "0"
+    },
+    {
+      "value": 1.23456,
+      "fmt": "1.23",
+      "eng": "1234.56 mA",
+      "pot_html": "1.23 \u00d7 10<sup>0</sup>",
+      "pot_text": "1.23 \u00d7 10^0",
+      "count": "1"
+    },
+    {
+      "value": -0.005,
+      "fmt": "-0.01",
+      "eng": "-5.00 mA",
+      "pot_html": "NA",
+      "pot_text": "NA",
+      "count": "0"
+    },
+    {
+      "value": 0.125,
+      "fmt": "0.12",
+      "eng": "125.00 mA",
+      "pot_html": "1.25 \u00d7 10<sup>-1</sup>",
+      "pot_text": "1.25 \u00d7 10^-1",
+      "count": "0"
+    },
+    {
+      "value": 0.135,
+      "fmt": "0.14",
+      "eng": "135.00 mA",
+      "pot_html": "1.35 \u00d7 10<sup>-1</sup>",
+      "pot_text": "1.35 \u00d7 10^-1",
+      "count": "0"
+    },
+    {
+      "value": 0.145,
+      "fmt": "0.14",
+      "eng": "145.00 mA",
+      "pot_html": "1.45 \u00d7 10<sup>-1</sup>",
+      "pot_text": "1.45 \u00d7 10^-1",
+      "count": "0"
+    },
+    {
+      "value": 2.675,
+      "fmt": "2.67",
+      "eng": "2675.00 mA",
+      "pot_html": "2.67 \u00d7 10<sup>0</sup>",
+      "pot_text": "2.67 \u00d7 10^0",
+      "count": "2"
+    },
+    {
+      "value": 1.005,
+      "fmt": "1.00",
+      "eng": "1005.00 mA",
+      "pot_html": "1.00 \u00d7 10<sup>0</sup>",
+      "pot_text": "1.00 \u00d7 10^0",
+      "count": "1"
+    },
+    {
+      "value": 1234.565,
+      "fmt": "1234.57",
+      "eng": "1234565.00 mA",
+      "pot_html": "1.23 \u00d7 10<sup>3</sup>",
+      "pot_text": "1.23 \u00d7 10^3",
+      "count": "1234"
+    },
+    {
+      "value": -12.5,
+      "fmt": "-12.50",
+      "eng": "-12500.00 mA",
+      "pot_html": "NA",
+      "pot_text": "NA",
+      "count": "-12"
+    },
+    {
+      "value": 0.0015,
+      "fmt": "0.00",
+      "eng": "1.50 mA",
+      "pot_html": "1.50 \u00d7 10<sup>-3</sup>",
+      "pot_text": "1.50 \u00d7 10^-3",
+      "count": "0"
+    },
+    {
+      "value": 0.000999,
+      "fmt": "0.00",
+      "eng": "999.00 \u00b5A",
+      "pot_html": "9.99 \u00d7 10<sup>-4</sup>",
+      "pot_text": "9.99 \u00d7 10^-4",
+      "count": "0"
+    },
+    {
+      "value": 1e-06,
+      "fmt": "0.00",
+      "eng": "1.00 \u00b5A",
+      "pot_html": "1.00 \u00d7 10<sup>-6</sup>",
+      "pot_text": "1.00 \u00d7 10^-6",
+      "count": "0"
+    },
+    {
+      "value": 5e-09,
+      "fmt": "0.00",
+      "eng": "5.00 nA",
+      "pot_html": "5.00 \u00d7 10<sup>-9</sup>",
+      "pot_text": "5.00 \u00d7 10^-9",
+      "count": "0"
+    },
+    {
+      "value": 3.3e-12,
+      "fmt": "0.00",
+      "eng": "3.30 pA",
+      "pot_html": "3.30 \u00d7 10<sup>-12</sup>",
+      "pot_text": "3.30 \u00d7 10^-12",
+      "count": "0"
+    },
+    {
+      "value": 7e-15,
+      "fmt": "0.00",
+      "eng": "7.00 fA",
+      "pot_html": "7.00 \u00d7 10<sup>-15</sup>",
+      "pot_text": "7.00 \u00d7 10^-15",
+      "count": "0"
+    },
+    {
+      "value": 9.9e-16,
+      "fmt": "0.00",
+      "eng": "9.90e-16 A",
+      "pot_html": "9.90 \u00d7 10<sup>-16</sup>",
+      "pot_text": "9.90 \u00d7 10^-16",
+      "count": "0"
+    },
+    {
+      "value": 4e-16,
+      "fmt": "0.00",
+      "eng": "4.00e-16 A",
+      "pot_html": "4.00 \u00d7 10<sup>-16</sup>",
+      "pot_text": "4.00 \u00d7 10^-16",
+      "count": "0"
+    },
+    {
+      "value": -2.5e-09,
+      "fmt": "-0.00",
+      "eng": "-2.50 nA",
+      "pot_html": "NA",
+      "pot_text": "NA",
+      "count": "0"
+    },
+    {
+      "value": 1000.0,
+      "fmt": "1000.00",
+      "eng": "1000000.00 mA",
+      "pot_html": "1.00 \u00d7 10<sup>3</sup>",
+      "pot_text": "1.00 \u00d7 10^3",
+      "count": "1000"
+    },
+    {
+      "value": 999.9999,
+      "fmt": "1000.00",
+      "eng": "999999.90 mA",
+      "pot_html": "10.00 \u00d7 10<sup>2</sup>",
+      "pot_text": "10.00 \u00d7 10^2",
+      "count": "999"
+    },
+    {
+      "value": 1.0,
+      "fmt": "1.00",
+      "eng": "1000.00 mA",
+      "pot_html": "1.00 \u00d7 10<sup>0</sup>",
+      "pot_text": "1.00 \u00d7 10^0",
+      "count": "1"
+    },
+    {
+      "value": 9.99,
+      "fmt": "9.99",
+      "eng": "9990.00 mA",
+      "pot_html": "9.99 \u00d7 10<sup>0</sup>",
+      "pot_text": "9.99 \u00d7 10^0",
+      "count": "9"
+    },
+    {
+      "value": 1e-12,
+      "fmt": "0.00",
+      "eng": "1.00 pA",
+      "pot_html": "1.00 \u00d7 10<sup>-12</sup>",
+      "pot_text": "1.00 \u00d7 10^-12",
+      "count": "0"
+    },
+    {
+      "value": 50000000.0,
+      "fmt": "50000000.00",
+      "eng": "50000000000.00 mA",
+      "pot_html": "5.00 \u00d7 10<sup>7</sup>",
+      "pot_text": "5.00 \u00d7 10^7",
+      "count": "50000000"
+    },
+    {
+      "value": 5.9,
+      "fmt": "5.90",
+      "eng": "5900.00 mA",
+      "pot_html": "5.90 \u00d7 10<sup>0</sup>",
+      "pot_text": "5.90 \u00d7 10^0",
+      "count": "5"
+    },
+    {
+      "value": -3.2,
+      "fmt": "-3.20",
+      "eng": "-3200.00 mA",
+      "pot_html": "NA",
+      "pot_text": "NA",
+      "count": "-3"
+    },
+    {
+      "value": 42.0,
+      "fmt": "42.00",
+      "eng": "42000.00 mA",
+      "pot_html": "4.20 \u00d7 10<sup>1</sup>",
+      "pot_text": "4.20 \u00d7 10^1",
+      "count": "42"
+    },
+    {
+      "value": "nan",
+      "fmt": "NA",
+      "eng": "NA",
+      "pot_html": "NA",
+      "pot_text": "NA",
+      "count": "0"
+    },
+    {
+      "value": "inf",
+      "fmt": "NA",
+      "eng": "NA",
+      "pot_html": "NA",
+      "pot_text": "NA",
+      "count": "0"
+    },
+    {
+      "value": "-inf",
+      "fmt": "NA",
+      "eng": "NA",
+      "pot_html": "NA",
+      "pot_text": "NA",
+      "count": "0"
+    },
+    {
+      "value": null,
+      "fmt": "NA",
+      "eng": "NA",
+      "pot_html": "NA",
+      "pot_text": "NA",
+      "count": "0"
+    }
+  ]
+}

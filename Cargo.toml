@@ -1,0 +1,20 @@
+# Cargo.toml
+[workspace]
+resolver = "2"
+members = ["crates/paramex-core", "crates/paramex-gui"]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/TomGuo15/ParamEx"
+rust-version = "1.87"
+publish = false
+
+# Size-optimized release profile for the portable Windows binary.
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "unwind"
+strip = true

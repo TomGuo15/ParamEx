@@ -1,0 +1,15 @@
+# Rust build outputs
+target/
+dist/
+
+# Snapshot-test artifacts (baselines in tests/snapshots are tracked)
+*.new.png
+*.diff.png
+*.old.png
+
+# Local scratch
+outputs/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

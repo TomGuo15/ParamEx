@@ -1,0 +1,60 @@
+% Source for the Technical Guide equation SVGs. Regenerate with MiKTeX:
+%   latex -interaction=nonstopmode -halt-on-error -output-directory=target/math-guide crates/paramex-gui/assets/math/equations.tex
+%   dvisvgm --no-fonts --exact-bbox --page=1- --output=equation-%p.svg target/math-guide/equations.dvi
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,xcolor}
+\usepackage[active,tightpage,displaymath]{preview}
+\definecolor{guideink}{HTML}{000F30}
+\setlength{\PreviewBorder}{1pt}
+\setlength{\jot}{3pt}
+\pagestyle{empty}
+
+\begin{document}
+
+% 1: transfer-threshold.svg
+\begin{equation*}\color{guideink}
+  \sqrt{|I_D|}=mV_G+b,
+  \qquad V_{\mathrm{TH}}=-\frac{b}{m},
+  \qquad \mu_{\mathrm{sat}}=\frac{2m^2}{C_{\mathrm{ox}}(W/L)}
+\end{equation*}
+
+% 2: transfer-subthreshold.svg
+\begin{equation*}\color{guideink}
+  \log_{10}|I_D|=sV_G+c,
+  \qquad SS=\left|\frac{1000}{s}\right|\ \mathrm{mV/dec}
+\end{equation*}
+
+% 3: transfer-on-off-hysteresis.svg
+\begin{equation*}\color{guideink}
+\begin{aligned}
+  I_{\mathrm{on}}&=\max |I_D|,
+  & I_{\mathrm{off}}&=\min_{|I_D|>0}|I_D|,
+  & \mathrm{on/off}&=I_{\mathrm{on}}/I_{\mathrm{off}},\\
+  \Delta V_{\mathrm{TH}}
+  &=\underset{\log I}{\operatorname{median}}
+    \left[V_G^{\mathrm{bwd}}(\log I)-V_G^{\mathrm{fwd}}(\log I)\right].
+\end{aligned}
+\end{equation*}
+
+% 4: tlm-current.svg
+\begin{equation*}\color{guideink}
+\begin{aligned}
+  j_d&=\underset{j}{\arg\min}\,|V_{G,dj}-V_G^*|,
+  & I_{\mathrm{ch},d}(V_G^*)&=\min\!\left(|I_{D,dj_d}|,|I_{S,dj_d}|\right),\\
+  I_L&=\max_d I_{\mathrm{ch},d},
+  & R_{\mathrm{tot}}(L)&=\frac{|V_D|}{I_L}.
+\end{aligned}
+\end{equation*}
+
+% 5: tlm-regression.svg
+\begin{equation*}\color{guideink}
+\begin{aligned}
+  R_{\mathrm{tot}}(L)&=mL+b=mL+2R_c,
+  & R_c/\mathrm{contact}&=\frac{b}{2},\\
+  m&=\frac{n\sum LR-(\sum L)(\sum R)}{n\sum L^2-(\sum L)^2},
+  & b&=\frac{\sum R-m\sum L}{n},\\
+  R^2&=1-\frac{\sum(R-\widehat R)^2}{\sum(R-\overline R)^2}.
+\end{aligned}
+\end{equation*}
+
+\end{document}

@@ -1,0 +1,196 @@
+{
+  "fingerprints": [
+    {
+      "name": "Dev_A.csv",
+      "vg": [
+        0.0,
+        1.0,
+        2.0
+      ],
+      "id_abs": [
+        1e-09,
+        2e-09,
+        3e-09
+      ],
+      "name_fold": "dev_a.csv",
+      "hex": "22d6af8de1d2dfeb31fffcbbf6fb5cd21fb874bad80ca9d5a6f576b52964ff7e"
+    },
+    {
+      "name": "DEV_a.csv",
+      "vg": [
+        0.0,
+        1.0,
+        2.0
+      ],
+      "id_abs": [
+        1e-09,
+        2e-09,
+        3e-09
+      ],
+      "name_fold": "dev_a.csv",
+      "hex": "22d6af8de1d2dfeb31fffcbbf6fb5cd21fb874bad80ca9d5a6f576b52964ff7e"
+    },
+    {
+      "name": "Dev_A.csv",
+      "vg": [
+        0.0,
+        1.0,
+        2.0
+      ],
+      "id_abs": [
+        1e-09,
+        2e-09,
+        3.5e-09
+      ],
+      "name_fold": "dev_a.csv",
+      "hex": "531fcc45879f8093a4479908a6044643c62d015e0626428d60b6b7019e9cf8e7"
+    },
+    {
+      "name": "other.csv",
+      "vg": [
+        1.5,
+        2.5
+      ],
+      "id_abs": [
+        1e-12,
+        2e-12
+      ],
+      "name_fold": "other.csv",
+      "hex": "3da5138b33880e91cbc2d7fb50f8ee11014619ab5c2499ceb2503188e93e1ad3"
+    },
+    {
+      "name": "empty.csv",
+      "vg": [],
+      "id_abs": [],
+      "name_fold": "empty.csv",
+      "hex": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "matches": [
+    {
+      "i": 0,
+      "j": 0,
+      "match": true
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "match": true
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "match": false
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "match": false
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "match": false
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "match": true
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "match": true
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "match": false
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "match": false
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "match": false
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "match": false
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "match": false
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "match": true
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "match": false
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "match": false
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "match": false
+    },
+    {
+      "i": 3,
+      "j": 1,
+      "match": false
+    },
+    {
+      "i": 3,
+      "j": 2,
+      "match": false
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "match": true
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "match": false
+    },
+    {
+      "i": 4,
+      "j": 0,
+      "match": false
+    },
+    {
+      "i": 4,
+      "j": 1,
+      "match": false
+    },
+    {
+      "i": 4,
+      "j": 2,
+      "match": false
+    },
+    {
+      "i": 4,
+      "j": 3,
+      "match": false
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "match": true
+    }
+  ]
+}

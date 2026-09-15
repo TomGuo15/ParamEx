@@ -1,0 +1,311 @@
+{
+  "results": [
+    {
+      "filename": "dev_a.csv",
+      "width_um": 1500.0,
+      "length_um": 50.0,
+      "aspect_ratio": 30.0,
+      "geometry_source": "default",
+      "vt": 0.83,
+      "mu_sat": 12.5,
+      "ss_mv_dec": 95.0,
+      "ion": 0.00012,
+      "ioff": 3.4e-12,
+      "on_off_ratio": 35000000.0,
+      "delta_vth_hysteresis": "nan",
+      "vt_window": [
+        1.0,
+        4.0
+      ],
+      "ss_window": [
+        -1.0,
+        0.5
+      ],
+      "vt_window_bwd": null,
+      "ss_window_bwd": null,
+      "status": "ok",
+      "message": "",
+      "has_backward_sweep": false,
+      "vt_forward": 0.83,
+      "mu_sat_forward": 12.5,
+      "ss_mv_dec_forward": 95.0,
+      "ion_forward": 0.00012,
+      "ioff_forward": 3.4e-12,
+      "on_off_ratio_forward": 35000000.0,
+      "vt_backward": "nan",
+      "mu_sat_backward": "nan",
+      "ss_mv_dec_backward": "nan",
+      "ion_backward": "nan",
+      "ioff_backward": "nan",
+      "on_off_ratio_backward": "nan"
+    },
+    {
+      "filename": "dev_b.csv",
+      "width_um": 200.0,
+      "length_um": 10.0,
+      "aspect_ratio": 20.0,
+      "geometry_source": "imported",
+      "vt": 1.05,
+      "mu_sat": 8.1,
+      "ss_mv_dec": 120.0,
+      "ion": 9.9e-05,
+      "ioff": "nan",
+      "on_off_ratio": "nan",
+      "delta_vth_hysteresis": 0.12,
+      "vt_window": [
+        0.5,
+        3.5
+      ],
+      "ss_window": [
+        -0.5,
+        1.0
+      ],
+      "vt_window_bwd": [
+        0.6,
+        3.6
+      ],
+      "ss_window_bwd": [
+        -0.4,
+        1.1
+      ],
+      "status": "ok",
+      "message": "",
+      "has_backward_sweep": true,
+      "vt_forward": 1.05,
+      "mu_sat_forward": 8.1,
+      "ss_mv_dec_forward": 120.0,
+      "ion_forward": 9.9e-05,
+      "ioff_forward": 2e-12,
+      "on_off_ratio_forward": 49500000.0,
+      "vt_backward": 1.17,
+      "mu_sat_backward": 7.6,
+      "ss_mv_dec_backward": 130.0,
+      "ion_backward": 9.5e-05,
+      "ioff_backward": 2.5e-12,
+      "on_off_ratio_backward": 38000000.0
+    },
+    {
+      "filename": "dev_c.csv",
+      "width_um": 1500.0,
+      "length_um": 50.0,
+      "aspect_ratio": 30.0,
+      "geometry_source": "global",
+      "vt": "nan",
+      "mu_sat": "nan",
+      "ss_mv_dec": "nan",
+      "ion": "nan",
+      "ioff": "nan",
+      "on_off_ratio": "nan",
+      "delta_vth_hysteresis": "nan",
+      "vt_window": null,
+      "ss_window": null,
+      "vt_window_bwd": null,
+      "ss_window_bwd": null,
+      "status": "partial",
+      "message": "Some metrics could not be extracted.",
+      "has_backward_sweep": false,
+      "vt_forward": "nan",
+      "mu_sat_forward": "nan",
+      "ss_mv_dec_forward": "nan",
+      "ion_forward": "nan",
+      "ioff_forward": "nan",
+      "on_off_ratio_forward": "nan",
+      "vt_backward": "nan",
+      "mu_sat_backward": "nan",
+      "ss_mv_dec_backward": "nan",
+      "ion_backward": "nan",
+      "ioff_backward": "nan",
+      "on_off_ratio_backward": "nan"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Forward Results",
+      "header": [
+        "File",
+        "W (\u00b5m)",
+        "L (\u00b5m)",
+        "W/L",
+        "Geometry",
+        "VTH (V)",
+        "mu_sat (cm^2 V^-1 s^-1)",
+        "SS (mV dec^-1)",
+        "Ion",
+        "Ioff",
+        "Ion/Ioff",
+        "DeltaVTH,hyst (V)",
+        "Status",
+        "Message"
+      ],
+      "rows": [
+        [
+          "dev_a.csv",
+          "1500.00",
+          "50.00",
+          "30.00",
+          "default",
+          "0.83",
+          "12.50",
+          "95.00",
+          "120.00 \u00b5A",
+          "3.40 pA",
+          "3.50 \u00d7 10^7",
+          "NA",
+          "ok",
+          ""
+        ],
+        [
+          "dev_b.csv",
+          "200.00",
+          "10.00",
+          "20.00",
+          "imported",
+          "1.05",
+          "8.10",
+          "120.00",
+          "99.00 \u00b5A",
+          "2.00 pA",
+          "4.95 \u00d7 10^7",
+          "0.12",
+          "ok",
+          ""
+        ],
+        [
+          "dev_c.csv",
+          "1500.00",
+          "50.00",
+          "30.00",
+          "global",
+          "NA",
+          "NA",
+          "NA",
+          "NA",
+          "NA",
+          "NA",
+          "NA",
+          "partial",
+          "Some metrics could not be extracted."
+        ],
+        [
+          "Overall",
+          "NA",
+          "NA",
+          "NA",
+          "",
+          "0.94 \u00b1 0.16",
+          "10.30 \u00b1 3.11",
+          "107.50 \u00b1 17.68",
+          "109.50 \u00b5A \u00b1 14.85 \u00b5A",
+          "2.70 pA \u00b1 989.95 fA",
+          "log10 7.62 \u00b1 0.11",
+          "0.12 \u00b1 NA",
+          "",
+          "mean \u00b1 std"
+        ]
+      ]
+    },
+    {
+      "title": "Backward Results",
+      "header": [
+        "File",
+        "W (\u00b5m)",
+        "L (\u00b5m)",
+        "W/L",
+        "Geometry",
+        "VTH (V)",
+        "mu_sat (cm^2 V^-1 s^-1)",
+        "SS (mV dec^-1)",
+        "Ion",
+        "Ioff",
+        "Ion/Ioff",
+        "DeltaVTH,hyst (V)",
+        "Status",
+        "Message"
+      ],
+      "rows": [
+        [
+          "dev_b.csv",
+          "200.00",
+          "10.00",
+          "20.00",
+          "imported",
+          "1.17",
+          "7.60",
+          "130.00",
+          "95.00 \u00b5A",
+          "2.50 pA",
+          "3.80 \u00d7 10^7",
+          "0.12",
+          "ok",
+          ""
+        ],
+        [
+          "Overall",
+          "NA",
+          "NA",
+          "NA",
+          "",
+          "1.17 \u00b1 NA",
+          "7.60 \u00b1 NA",
+          "130.00 \u00b1 NA",
+          "95.00 \u00b5A \u00b1 NA",
+          "2.50 pA \u00b1 NA",
+          "log10 7.58 \u00b1 NA",
+          "0.12 \u00b1 NA",
+          "",
+          "mean \u00b1 std"
+        ]
+      ]
+    }
+  ],
+  "format_cell": [
+    {
+      "key": "Ion",
+      "value": 0.00012,
+      "plain": "120.00 \u00b5A",
+      "html": "120.00 \u00b5A"
+    },
+    {
+      "key": "Ion_Ioff",
+      "value": 35000000.0,
+      "plain": "3.50 \u00d7 10^7",
+      "html": "3.50 \u00d7 10<sup>7</sup>"
+    },
+    {
+      "key": "Vth",
+      "value": 0.835,
+      "plain": "0.83",
+      "html": "0.83"
+    },
+    {
+      "key": "Vth",
+      "value": null,
+      "plain": "NA",
+      "html": "NA"
+    },
+    {
+      "key": "filename",
+      "value": "x.csv",
+      "plain": "x.csv",
+      "html": "x.csv"
+    },
+    {
+      "key": "Vth",
+      "value": "nan",
+      "plain": "NA",
+      "html": "NA"
+    },
+    {
+      "key": "Ioff",
+      "value": "nan",
+      "plain": "NA",
+      "html": "NA"
+    },
+    {
+      "key": "geometry_source",
+      "value": null,
+      "plain": "",
+      "html": ""
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Normalize line endings in the index; the working tree follows core.autocrlf.
+* text=auto
+*.png binary
+*.ico binary
+*.xlsx binary

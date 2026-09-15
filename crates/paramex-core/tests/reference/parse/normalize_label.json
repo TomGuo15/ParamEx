@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "input": "Vg (V)",
+      "expected": "vg"
+    },
+    {
+      "input": "drain current",
+      "expected": "drain_current"
+    },
+    {
+      "input": "ABS-ID [A]",
+      "expected": "abs_id"
+    },
+    {
+      "input": "Gate Voltage [V]",
+      "expected": "gate_voltage"
+    },
+    {
+      "input": "Drain Current (A)",
+      "expected": "drain_current"
+    },
+    {
+      "input": "abs_Id",
+      "expected": "abs_id"
+    },
+    {
+      "input": "  Vg  ",
+      "expected": "vg"
+    },
+    {
+      "input": "Ig (A)",
+      "expected": "ig"
+    },
+    {
+      "input": "sqrt_Id",
+      "expected": "sqrt_id"
+    },
+    {
+      "input": "Vg",
+      "expected": "vg"
+    },
+    {
+      "input": "",
+      "expected": ""
+    },
+    {
+      "input": "V_G",
+      "expected": "v_g"
+    },
+    {
+      "input": "Gate-Voltage",
+      "expected": "gate_voltage"
+    },
+    {
+      "input": "DRAIN",
+      "expected": "drain"
+    },
+    {
+      "input": "Id [A] (raw)",
+      "expected": "id"
+    }
+  ]
+}

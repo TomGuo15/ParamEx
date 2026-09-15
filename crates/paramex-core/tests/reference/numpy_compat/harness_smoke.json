@@ -1,0 +1,16 @@
+{
+  "cases": [
+    {
+      "value": 1.5
+    },
+    {
+      "value": "nan"
+    },
+    {
+      "value": "inf"
+    },
+    {
+      "value": "-inf"
+    }
+  ]
+}
